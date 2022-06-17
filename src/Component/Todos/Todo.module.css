@@ -1,0 +1,57 @@
+.todo {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    color: #98A2C1;
+    font-weight: 500;
+}
+
+.todo .completed {
+    text-decoration: line-through;
+}
+
+.todo button {
+    padding: 8px;
+    color: #AF7EEB;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.todo button:hover {
+    cursor: pointer;
+}
+
+
+.todo .btn-delete {
+    color: #98A2C1;
+    background-color: transparent;
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.9);
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

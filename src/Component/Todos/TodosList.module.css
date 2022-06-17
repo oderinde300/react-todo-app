@@ -1,0 +1,44 @@
+.todos-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    color: #98A2C1;
+    font-weight: 500;
+}
+
+.todo-form {
+    width: 100%;
+}
+
+.todo-item {
+    width: 100%;
+    margin-top: 10px;
+    max-height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.pending {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    height: 2rem;
+}
+
+.pending button {
+    background-color: #AF7EEB;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.pending button:hover {
+    cursor: pointer;
+}
